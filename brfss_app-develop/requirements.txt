@@ -1,0 +1,19 @@
+streamlit
+pandas==2.2.0
+numpy
+matplotlib
+seaborn
+scikit-learn
+plotly
+sweetviz
+phik==0.12.2
+ydata-profiling
+streamlit_ydata_profiling==0.2.1
+beautifulsoup4
+tabulate
+# os
+apikey
+langchain-community
+python-dotenv
+langchain-experimental
+openai==0.28

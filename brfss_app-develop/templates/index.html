@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+</head>
+
+<body>
+  <ul>
+
+    <li class="dropdown">
+      <button class="dropbtn">Menu 1</button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <button class="dropbtn">Menu 2</button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <button class="dropbtn">Menu 3</button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+
+  </ul>
+  <iframe src="http://localhost:8501/?p=home" id="streamlit_content" allowfullscreen frameborder="0"
+    wmode="transparent">
+    Your browser doesn't support iframes
+  </iframe>
+
+</body>
+<script>
+  function setURL(url) {
+    document.getElementById('streamlit_content').src = url;
+    console.log('Works!')
+  }
+</script>
+
+</html>
