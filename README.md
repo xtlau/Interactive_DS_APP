@@ -1,8 +1,7 @@
 # HEART: Health Exploration and Analytical Research Tool for Multi-level Prediction Modeling and Behavioral Risk Factor Analysis
 
 
- Artificial Intelligence (AI) techniques have profoundly impacted the exploration of population and
-behavioral health insights by illustrating unseen patterns, making new predictions, and analyzing trends based on
+Artificial Intelligence (AI) techniques have profoundly impacted the exploration of population and behavioral health insights by illustrating unseen patterns, making new predictions, and analyzing trends based on
 population health data, thanks to advanced algorithms andsubstantial computing power. 
 
 However, the machine learning models constructed from current population health studies are usually restricted to specific diseases or certain
@@ -16,3 +15,5 @@ dividual levels, thereby facilitating multi-level insights.
 By improving user engagement with machine learning models, HEART supports the integration of ML-driven insights into population health analysis processes at multiple levels,
 which not only fosters deeper trust in ML technologies among healthcare professionals but also enhances the utilization of these insights for comprehensive public health
 surveillance and individualized analysis.
+
+The demo of this application could be found through this link: https://brfssapp.streamlit.app/
